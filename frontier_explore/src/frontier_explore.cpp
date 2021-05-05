@@ -114,7 +114,7 @@ bool FrontierExplore::explore_centroids(std::vector<geometry_msgs::Point>& front
         }
     }
     //NO valid frontier is reachable, return false and complete the exploration.
-    ROS_INFO("Exploration complete.");
+    ROS_INFO("NO valid frontier is reachable. Exploration complete.");
     ros::Duration(1).sleep();
     return false;
 }

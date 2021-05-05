@@ -1,5 +1,5 @@
 #define NoClass -1 
-#define MinClassSize 140 
+#define MinClassSize 130 
 
 #include <frontier_explore/occupancy_map.hpp>
 
