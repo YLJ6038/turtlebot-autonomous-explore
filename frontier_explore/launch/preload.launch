@@ -1,0 +1,16 @@
+<launch>
+
+  <!-- Gmapping -->	
+  <include file="$(find frontier_explore)/launch/gmapping.launch"/>
+  
+  <!-- Move_base -->
+  <include file="$(find turtlebot_navigation)/launch/includes/move_base.launch.xml"/>
+  <param name="/move_base/global_costmap/static_map" value="false"/>
+  
+  <!-- Octomap -->
+  <include file="$(find frontier_explore)/launch/octomap.launch"/>
+
+  <!-- DetectFrontiers Server -->
+  <node pkg="frontier_explore" name="detect_frontier_server" type="detect_frontier_server"/>  
+
+</launch>

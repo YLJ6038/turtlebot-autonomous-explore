@@ -1,0 +1,17 @@
+<launch>
+  <node pkg="octomap_server" type="octomap_server_node" name="octomap_server">
+    <param name="resolution" value="0.05" />
+    <param name="frame_id" type="string" value="map" />
+
+    <!-- ignore the ground from the scan data -->
+    <param name="filter_ground" value="true" />
+
+    <!-- only visualize the scan from height 0.05m to 0.4m -->
+    <param name="occupancy_min_z" value="0.05"/>
+    <param name="occupancy_max_z" value="0.4"/>
+
+    <remap from="cloud_in" to="/camera/depth/points" />
+
+  </node>
+
+</launch>

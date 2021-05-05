@@ -1,0 +1,3 @@
+nav_msgs/OccupancyGrid raw_map
+---
+geometry_msgs/Point[] frontiers
