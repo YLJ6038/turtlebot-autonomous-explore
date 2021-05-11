@@ -79,6 +79,18 @@ roslaunch turtlebot_exploration_3d exploration_rviz.launch
 
 In this package, we develop an ROS implementation of infomation-theoretic exploration using turtlebot with Kinect. This package is based on the [turtlebot_exploration_3d](https://github.com/RobustFieldAutonomyLab/turtlebot_exploration_3d) package. We modify the package and apply it into our turtlebot and project.
 
+If you want to run this package in simulation, you should run follow commands in different terminal windows:
+
+```
+roslaunch frontier_explore gazebo.launch
+roslaunch frontier_explore preload.launch
+rosrun frontier_explore frontier_explore_node
+```
+
+You should be able to see the simualtion process in RVIZ and Gazebo. The simulation result can be seen from the pictures below:
+
+<div align=center><img width="800" height="600" src="https://github.com/YLJ6038/frontier-based-explore/blob/master/Figures/information_theory_simulation.png"/></div>
+
 ## Reference
 
 - S. Bai, J. Wang, F. Chen, and B. Englot, "Information-Theoretic Exploration with Bayesian Optimization", IEEE/RSJ International Conference on Intelligent Robots and Systems(IROS), October 2016.
