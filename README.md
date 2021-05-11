@@ -48,7 +48,7 @@ If you want to run this package in simulation, you should run follow commands in
 ```
 roslaunch frontier_explore gazebo.launch
 roslaunch frontier_explore preload.launch
-rosrun frontier_explore frontier_explore_node
+rosrun frontier_explore explore.launch
 ```
 
 You should be able to see the simualtion process in RVIZ and Gazebo. The simulation result can be seen from the pictures below:
