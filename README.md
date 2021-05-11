@@ -79,6 +79,10 @@ roslaunch turtlebot_exploration_3d exploration_rviz.launch
 
 In this package, we develop an ROS implementation of infomation-theoretic exploration using turtlebot with Kinect. This package is based on the [turtlebot_exploration_3d](https://github.com/RobustFieldAutonomyLab/turtlebot_exploration_3d) package. We modify the package and apply it into our turtlebot and project.
 
+## How to run this package:
+
+### Run Simulation
+
 If you want to run this package in simulation, you should run follow commands in different terminal windows:
 
 ```
