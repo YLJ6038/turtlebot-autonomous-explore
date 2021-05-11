@@ -14,7 +14,7 @@ bool detect_frontiers(frontier_explore::DetectFrontiers::Request &req, frontier_
     res.frontiers.clear();
 
     //Detect and return the frontiers
-    grid_map.detect_frontier_centroids(res.frontiers);
+    grid_map.detect_frontier_centroids(res.frontiers, req.minclasssize);
     ros::Duration(1.5).sleep();
     
     ROS_INFO_STREAM("Finished. " << res.frontiers.size() << " qualified frontier classes detected. ");

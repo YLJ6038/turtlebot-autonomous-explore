@@ -49,6 +49,6 @@ public:
     geometry_msgs::Point get_class_centroid(const std::vector<geometry_msgs::Point>& class_world);
 
     //function: Get the frontier centroids of the map, store the result in frontier_centroids
-    bool detect_frontier_centroids(std::vector<geometry_msgs::Point>& frontier_centroids);
+    bool detect_frontier_centroids(std::vector<geometry_msgs::Point>& frontier_centroids, int& min_class_size);
 };
 

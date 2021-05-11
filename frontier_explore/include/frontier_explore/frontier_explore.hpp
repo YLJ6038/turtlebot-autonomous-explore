@@ -30,6 +30,10 @@ private:
     ros::ServiceClient frontier_cli;//Client of detect_frontiers service
     ros::Publisher rviz_pub;//Publisher for rviz marker
 
+    //node params
+    double min_explore_dist;
+    int min_class_size;
+
     //Listener for robot pose
     tf::TransformListener robotpose_listener;
     tf::StampedTransform robotpose;
@@ -52,6 +56,9 @@ public:
 
     //function: init the robot and its motion
     void init_robot();
+
+    //function: init the node params
+    void init_param();
 
     //function: rotate the robot to scan the environment
     void rotate360();

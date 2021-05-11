@@ -1,5 +1,4 @@
 #define NoClass -1 
-#define MinClassSize 130 
 
 #include <frontier_explore/occupancy_map.hpp>
 
@@ -175,7 +174,7 @@ geometry_msgs::Point OccupancyMap::get_class_centroid(const std::vector<geometry
 
 
 
-bool OccupancyMap::detect_frontier_centroids(std::vector<geometry_msgs::Point>& frontier_centroids){
+bool OccupancyMap::detect_frontier_centroids(std::vector<geometry_msgs::Point>& frontier_centroids, int& min_class_size){
 
     int frontier_total_num = get_frontier_cells();
     std::cout << "Number of frontiers: " << frontier_total_num << std::endl;
@@ -188,7 +187,7 @@ bool OccupancyMap::detect_frontier_centroids(std::vector<geometry_msgs::Point>& 
 
     for(auto class_element: frontier_classes){
         //A frontier class is qualified only if its size is larger than MinClassSize
-        if(class_element.size() > MinClassSize){
+        if(class_element.size() > min_class_size){
 
             //Transform the coordinates from grid to world, and calculate the centroid
             centroid_point = get_class_centroid( grid2world(class_element) );

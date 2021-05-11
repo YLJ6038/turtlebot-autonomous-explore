@@ -1,0 +1,9 @@
+<launch>
+  <arg name="min_class_size"  default="135" />
+  <arg name="min_explore_dist"  default="1.3"/>
+  
+  <node pkg="frontier_explore" name="frontier_explore" type="frontier_explore_node" output="screen">
+    <param name="minclasssize" value="$(arg min_class_size)"/>
+    <param name="minexploredist" value="$(arg min_explore_dist)"/>
+  </node>  
+</launch>

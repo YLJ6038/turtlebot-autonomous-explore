@@ -11,12 +11,16 @@ movePlanner("move_base", true){
     frontier_cli = nh.serviceClient<frontier_explore::DetectFrontiers>("detect_frontiers");
     rviz_pub = nh.advertise<visualization_msgs::Marker>("frontier_goal",10);
 
+    //Init params of the node
+    init_param();
+
     //Set frequency and rotation velocity
     frequency = 15;
     velZ_ang = 0.628319;
 
     //Init motion of turtlebot
     init_robot();
+
 }
 
 
@@ -25,6 +29,15 @@ void FrontierExplore::init_robot(){
     geometry_msgs::Twist init;
     vel_pub.publish(init);
     ros::Duration(1).sleep();
+}
+
+
+void FrontierExplore::init_param(){
+    //Get params from server
+    if(!nh.getParam("/frontier_explore/minclasssize",min_class_size))
+        min_class_size = 135;
+    if(!nh.getParam("/frontier_explore/minexploredist",min_explore_dist))
+        min_explore_dist = 1.3;
 }
 
 
@@ -45,6 +58,7 @@ void FrontierExplore::map_subCB(const nav_msgs::OccupancyGrid::ConstPtr &grid_ms
     DF_srv.request.raw_map.info.width = grid_msg->info.width;
     DF_srv.request.raw_map.info.origin = grid_msg->info.origin;
     DF_srv.request.raw_map.info.resolution = grid_msg->info.resolution;
+    DF_srv.request.minclasssize = min_class_size;
 
 }
 
@@ -94,7 +108,7 @@ bool FrontierExplore::explore_centroids(std::vector<geometry_msgs::Point>& front
     ROS_INFO("Try navigation to the nearest frontier. Move_base server planning..");
     for(auto centroid: frontier_centroids){
         //Only consider frontier centroids that are more than 1.2m away
-        if(get_dist(centroid) > 1.3){
+        if(get_dist(centroid) > min_explore_dist){
             
             //Visualize frontier target in rviz
             mark_centroid(centroid);
@@ -114,7 +128,7 @@ bool FrontierExplore::explore_centroids(std::vector<geometry_msgs::Point>& front
         }
     }
     //NO valid frontier is reachable, return false and complete the exploration.
-    ROS_INFO("NO valid frontier is reachable. Exploration complete.");
+    ROS_INFO("None of the frontiers is valid for path planning. Exploration complete.");
     ros::Duration(1).sleep();
     return false;
 }
