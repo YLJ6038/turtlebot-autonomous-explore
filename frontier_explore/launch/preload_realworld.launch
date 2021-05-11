@@ -1,0 +1,11 @@
+<launch>	
+  <!-- Gmapping -->
+  <include file="$(find turtlebot_navigation)/launch/gmapping_demo.launch"/>
+ 
+  <!-- Octomap -->
+  <include file="$(find frontier_explore)/launch/octomap.launch"/>
+
+  <!--DetectFrontiers Server-->
+  <node pkg="frontier_explore" name="detect_frontier_server" type="detect_frontier_server"/>  
+
+</launch>
