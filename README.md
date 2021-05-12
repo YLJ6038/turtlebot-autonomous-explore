@@ -19,6 +19,8 @@ The presentation PPT can be found [here](https://docs.google.com/presentation/d/
 
 For any questions, please contact: Longji Yin(ljyin6038@gmail.com) and Ruixin Li(ruixinlee424@gmail.com)
 
+# Frontier-base-explore
+
 ## The Structure of the Package:
 
 The structure and working process of the Frontier-based explore package is shown in this activity diagram:
