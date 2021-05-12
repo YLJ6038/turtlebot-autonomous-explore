@@ -31,7 +31,7 @@ This package provides frontier-based exploration for turtlebot. While running th
 
 The architecture and working process of the Frontier-based explore package is shown in this activity diagram:
 
-<img src="https://github.com/YLJ6038/frontier-based-explore/blob/master/Figures/activity_map_frontier_explore.png" width="775" />
+<img src="https://github.com/YLJ6038/frontier-based-explore/blob/master/Figures/activity_map_frontier_explore.png" width="750" />
 
 
 
