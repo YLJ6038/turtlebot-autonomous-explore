@@ -26,7 +26,7 @@ The structure and working process of the Frontier-based explore package is shown
 
 ## ROS API Documentation:
 
-[Documentation for frontier explore package](https://github.com/YLJ6038/frontier-based-explore/blob/master/ros_api_frontier_explore.pdf)
+[Documentation for frontier explore package can be found here](https://github.com/YLJ6038/frontier-based-explore/blob/master/ros_api_frontier_explore.pdf)
 
 ## How to run this package:
 
