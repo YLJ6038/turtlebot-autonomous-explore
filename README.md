@@ -97,6 +97,21 @@ We modified the interfaces and make the package fit into our ros distro and turt
 
 ## How to run this package:
 
+### Install Dependencies:
+
+```
+sudo apt-get install ros-kinetic-turtlebot*
+sudo apt-get install ros-kinetic-octomap*
+```
+
+### Download from source:
+
+```
+my_catkin_workspace/src$ git clone 
+my_catkin_workspace/src$ cd ..
+my_catkin_workspace$ catkin build
+```
+
 ### Run Simulation
 
 If you want to run this package in simulation, you should run follow commands in different terminal windows:
