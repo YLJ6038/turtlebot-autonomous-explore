@@ -83,7 +83,7 @@ rosrun frontier_explore frontier_explore_node
 From remote pc. run:
 
 ```
-roslaunch turtlebot_exploration_3d exploration_rviz.launch
+roslaunch frontier_explore exploration_rviz.launch
 ```
 
 # Information-theoretic exploration package
