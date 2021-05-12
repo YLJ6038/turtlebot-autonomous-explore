@@ -19,7 +19,9 @@ The presentation PPT can be found [here](https://docs.google.com/presentation/d/
 
 For any questions, please contact: Longji Yin(ljyin6038@gmail.com) and Ruixin Li(ruixinlee424@gmail.com)
 
-# Frontier-base-explore
+# Frontier-based-explore package
+
+This package provides frontier-based exploration for turtlebot. While running the package, turtlebot will explore the unknown environment until no valid frontier can be detected. The package mainly contains two nodes: frontier_explore_node is for exploration process control, detect_frontiers_server is for computational analysis on map. 
 
 ## The Structure of the Package:
 
