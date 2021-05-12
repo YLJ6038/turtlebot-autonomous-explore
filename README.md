@@ -23,7 +23,7 @@ For any questions, you can communicate with: Longji Yin(ljyin6038@gmail.com) and
 
 The structure and working process of the Frontier-based explore package is shown in this activity diagram:
 
-<img src="https://github.com/YLJ6038/frontier-based-explore/blob/master/Figures/activity_map_frontier_explore.png" width="810" />
+<img src="https://github.com/YLJ6038/frontier-based-explore/blob/master/Figures/activity_map_frontier_explore.png" width="775" />
 
 ## ROS API Documentation:
 
@@ -50,9 +50,9 @@ rosrun frontier_explore explore.launch
 
 You should be able to see the simualtion process in RVIZ and Gazebo. The simulation result can be seen from the pictures below:
 
-<div align=center><img width="600" height="450" src="https://github.com/YLJ6038/frontier-based-explore/blob/master/Figures/simulation_gazebo_map_frontier_explore.png"/></div>
+<div align=center><img width="500" height="375" src="https://github.com/YLJ6038/frontier-based-explore/blob/master/Figures/simulation_gazebo_map_frontier_explore.png"/></div>
 
-<div align=center><img width="600" height="450" src="https://github.com/YLJ6038/frontier-based-explore/blob/master/Figures/gazebo_3d_map_frontier_explore.png"/></div>
+<div align=center><img width="500" height="375" src="https://github.com/YLJ6038/frontier-based-explore/blob/master/Figures/gazebo_3d_map_frontier_explore.png"/></div>
 
 ### Run real-world Turtlebot
 
