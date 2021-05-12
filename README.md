@@ -24,15 +24,9 @@ For any questions, you can communicate with: Longji Yin(ljyin6038@gmail.com) and
 The structure and working process of the Frontier-based explore package is shown in this activity diagram:
 ![image](https://github.com/YLJ6038/frontier-based-explore/blob/master/Figures/activity_map_frontier_explore.png)
 
-## ROS API:
+## ROS API Documentation:
 
-frontier_explore_node
-
-### Services:
-
-- detect_frontiers([nav_msgs/OccupancyGrid](http://docs.ros.org/en/melodic/api/nav_msgs/html/msg/OccupancyGrid.html))
-
-> Receive 2d occupancy map data and return a vector of chosen valid frontier points.
+[Documentation for frontier explore package](https://github.com/YLJ6038/frontier-based-explore/blob/master/ros_api_frontier_explore.pdf)
 
 ## How to run this package:
 
