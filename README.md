@@ -90,7 +90,7 @@ rosrun info_explore info_explore_node
 
 You should be able to see the simualtion process in RVIZ and Gazebo. The simulation result can be seen from the pictures below:
 
-<div align=center><img width="800" height="400" src="https://github.com/YLJ6038/frontier-based-explore/blob/master/Figures/information_theory_simulation.png"/></div>
+<div align=center><img width="700" height="350" src="https://github.com/YLJ6038/frontier-based-explore/blob/master/Figures/information_theory_simulation.png"/></div>
 
 ## Reference
 
