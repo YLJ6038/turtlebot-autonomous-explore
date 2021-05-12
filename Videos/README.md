@@ -1,4 +1,4 @@
-# Simulation and real-world testing videos used in this project
+# Simulation and real-world demonstration videos used in this project
 
 ### Manually control map building with gmapping and AMCL navigation in real world [video](https://drive.google.com/file/d/1Jpbd2eNB335GKOWZxl_YM4S5pOJXzzLW/view?usp=sharing)
 
