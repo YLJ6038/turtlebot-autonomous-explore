@@ -91,6 +91,10 @@ roslaunch turtlebot_exploration_3d exploration_rviz.launch
 This package is a ROS implementation of information-theoretic exploration for turtlebot with Kinect. The core implementation is based on the [turtlebot_exploration_3d](https://github.com/RobustFieldAutonomyLab/turtlebot_exploration_3d) package. We rearranged the code structure and defined two new classes for exploration process control and computation.
 We modified the interfaces and make the package fit into our ros distro and turtlebot.
 
+## ROS API Documentation:
+
+**[Documentation for information-theoretic explore package can be found here](https://github.com/YLJ6038/turtlebot-autonomous-explore/blob/master/Docs/ros_api_info_explore_pkg.md)**
+
 ## How to run this package:
 
 ### Run Simulation
