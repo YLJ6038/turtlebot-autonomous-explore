@@ -72,7 +72,7 @@ You should be able to see the simualtion process in RVIZ and Gazebo. The simulat
 
 If you use one laptop to connect with turtlebot and one remote pc to control the turtlebot, please follow the [turtlebot network configuration](http://wiki.ros.org/turtlebot/Tutorials/indigo/Network%20Configuration) to setup first.
 
-Then from turtlebot, run: 
+Then from the turtlebot, run: 
 
 ```
 roslaunch turtlebot_bringup minimal.launch
