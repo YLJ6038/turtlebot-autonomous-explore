@@ -11,7 +11,7 @@ How to set up, configure and bring up a Turtlebot： [Turtlebot Tutorial](http:/
 
 [Turtlebot_gazebo](https://github.com/turtlebot/turtlebot_simulator): Turtlebot simulation 
 
-[Turtlebot_navigation](https://github.com/turtlebot/turtlebot_apps): AMCL, gmapping and Kinect
+[Turtlebot_navigation](https://github.com/turtlebot/turtlebot_apps): AMCL, gmapping and move_base
 
 [Octomap](https://github.com/OctoMap/octomap) : 3D mapping and visualization 
 
