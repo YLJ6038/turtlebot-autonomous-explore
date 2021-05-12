@@ -1,5 +1,5 @@
 # Turtlebot-autonomous-explore
-Autonomous explore package for turtlebot(Kinect) simulation and real-world application
+Autonomous explore packages for turtlebot(Kinect) simulation and real-world application
 
 This is the final project for EN 530.707 Robot System Programming course in Johns Hopkins University. In this project, we developed two ROS packages to control the turtlebot(with Kinect) to autonomously explore the environment and build the map. We implemented two different exploration algorithms to achieve the task: frontier-based exploration and information-theoretic exploration.
 
