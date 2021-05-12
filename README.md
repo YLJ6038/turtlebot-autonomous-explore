@@ -1,7 +1,7 @@
-# Frontier-based-explore
-Frontier-based explore package for turtlebot(Kinect) simulation and real-world application
+# Turtlebot-autonomous-explore
+Autonomous explore package for turtlebot(Kinect) simulation and real-world application
 
-This is the final project for EN 530.707 Robot System Programming course in Johns Hopkins University. In this project, we want to develop several kinds of algorithms and packages in ROS to control the turtlebot( with Kinect) to autonomously explore the environment and build the map. With the map, we can navigate turtlebot from one starting point to another desire point.
+This is the final project for EN 530.707 Robot System Programming course in Johns Hopkins University. In this project, we developed two ROS packages to control the turtlebot(with Kinect) to autonomously explore the environment and build the map. We implemented two different exploration algorithms to achieve the task: frontier-based exploration and information-theoretic exploration.
 
 The basic information about turtlebot in ROS can be found here: [Turtlebot](http://wiki.ros.org/Robots/TurtleBot)
 
@@ -15,9 +15,9 @@ How to set up, configure and bring up a Turtlebot： [Turtlebot Tutorial](http:/
 
 [Octomap](https://github.com/OctoMap/octomap) : 3D mapping and visualization 
 
-And if you'd like to know more about this project: [The presentation PPT can be found here](https://docs.google.com/presentation/d/1sejKV5Q7UtgZKAZdH1bs6nY4dMpWcq0Tav3_yq_jBV8/edit#slide=id.gd749d66d51_0_130)
+The presentation PPT can be found [here](https://docs.google.com/presentation/d/1sejKV5Q7UtgZKAZdH1bs6nY4dMpWcq0Tav3_yq_jBV8/edit#slide=id.gd749d66d51_0_130)
 
-For any questions, you can communicate with: Longji Yin(ljyin6038@gmail.com) and Ruixin Li(ruixinlee424@gmail.com)
+For any questions, please contact: Longji Yin(ljyin6038@gmail.com) and Ruixin Li(ruixinlee424@gmail.com)
 
 ## The Structure of the Package:
 
