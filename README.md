@@ -21,17 +21,19 @@ For any questions, please contact: Longji Yin(ljyin6038@gmail.com) and Ruixin Li
 
 # Frontier-based-explore package
 
-This package provides frontier-based exploration for turtlebot. While running the package, turtlebot will explore the unknown environment until no valid frontier can be detected. The package mainly contains two nodes: frontier_explore_node is for exploration process control, detect_frontiers_server is for computational analysis on map. 
-
-## The Structure of the Package:
-
-The structure and working process of the Frontier-based explore package is shown in this activity diagram:
-
-<img src="https://github.com/YLJ6038/frontier-based-explore/blob/master/Figures/activity_map_frontier_explore.png" width="775" />
+This package provides frontier-based exploration for turtlebot. While running the package, turtlebot will explore the unknown environment until no valid frontier can be detected. The package mainly contains two nodes: frontier_explore_node is for exploration process control, detect_frontiers_server is for computational analysis of the map. 
 
 ## ROS API Documentation:
 
 **[Documentation for frontier explore package can be found here](https://github.com/YLJ6038/frontier-based-explore/blob/master/Docs/ros_api_frontier_explore_pkg.md)**
+
+## Activity diagram of the Package:
+
+The architecture and working process of the Frontier-based explore package is shown in this activity diagram:
+
+<img src="https://github.com/YLJ6038/frontier-based-explore/blob/master/Figures/activity_map_frontier_explore.png" width="775" />
+
+
 
 ## How to run this package:
 
