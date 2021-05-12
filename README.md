@@ -22,7 +22,8 @@ For any questions, you can communicate with: Longji Yin(ljyin6038@gmail.com) and
 ## The Structure of the Package:
 
 The structure and working process of the Frontier-based explore package is shown in this activity diagram:
-![image](https://github.com/YLJ6038/frontier-based-explore/blob/master/Figures/activity_map_frontier_explore.png){:height="50%" width="50%"}
+
+<img src="https://github.com/YLJ6038/frontier-based-explore/blob/master/Figures/activity_map_frontier_explore.png" style="zoom:50%" />
 
 ## ROS API Documentation:
 
