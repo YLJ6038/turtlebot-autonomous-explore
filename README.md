@@ -86,7 +86,7 @@ From remote pc. run:
 roslaunch turtlebot_exploration_3d exploration_rviz.launch
 ```
 
-# Information-Theoretic Exploration
+# Information-theoretic exploration package
 
 This package is a ROS implementation of information-theoretic exploration for turtlebot with Kinect. The core implementation is based on the [turtlebot_exploration_3d](https://github.com/RobustFieldAutonomyLab/turtlebot_exploration_3d) package. We rearranged the code structure and defined two new classes for exploration process control and computation.
 We modified the interfaces and make the package fit into our ros distro and turtlebot.
@@ -102,8 +102,8 @@ We modified the interfaces and make the package fit into our ros distro and turt
 If you want to run this package in simulation, you should run follow commands in different terminal windows:
 
 ```
-roslaunch frontier_explore gazebo.launch
-roslaunch frontier_explore preload.launch
+roslaunch info_explore gazebo.launch
+roslaunch info_explore preload.launch
 rosrun info_explore info_explore_node
 ```
 
