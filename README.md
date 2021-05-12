@@ -77,13 +77,13 @@ Then from the turtlebot, run:
 ```
 roslaunch turtlebot_bringup minimal.launch
 roslaunch frontier_explore preload_realworld.launch
-rosrun frontier_explore frontier_explore_node
+roslaunch frontier_explore explore.launch
 ```
 
 From remote pc. run:
 
 ```
-roslaunch frontier_explore exploration_rviz.launch
+roslaunch turtlebot_rviz_launchers view_navigation.launch
 ```
 
 # Information-theoretic exploration package
