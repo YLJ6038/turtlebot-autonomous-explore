@@ -43,6 +43,14 @@ The architecture and working process of the Frontier-based explore package is sh
 sudo apt-get install ros-kinetic-turtlebot*
 sudo apt-get install ros-kinetic-octomap*
 ```
+## Download from source:
+
+```
+my_catkin_workspace/src$ git clone 
+my_catkin_workspace/src$ cd ..
+my_catkin_workspace$ catkin build
+```
+
 
 ### Run Simulation
 
