@@ -17,7 +17,7 @@ How to set up, configure and bring up a Turtlebot： [Turtlebot Tutorial](http:/
 
 The presentation PPT can be found [here](https://docs.google.com/presentation/d/1sejKV5Q7UtgZKAZdH1bs6nY4dMpWcq0Tav3_yq_jBV8/edit#slide=id.gd749d66d51_0_130)
 
-For any questions, please contact: Longji Yin(ljyin6038@gmail.com) and Ruixin Li(ruixinlee424@gmail.com)
+For any questions, please contact: Longji Yin(ljyin6038@163.com) and Ruixin Li(ruixinlee424@gmail.com)
 
 # Frontier-based-explore package
 
